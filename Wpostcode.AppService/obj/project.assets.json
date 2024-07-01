@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Wpostcode.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Wpostcode.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Wpostcode.Data.dll": {}
+        }
+      },
       "Wpostcode.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Wpostcode.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Wpostcode.Repository.dll": {}
         },
@@ -15,6 +28,9 @@
       "Wpostcode.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Wpostcode.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Wpostcode.Service.dll": {}
         },
@@ -39,6 +55,11 @@
     }
   },
   "libraries": {
+    "Wpostcode.Data/1.0.0": {
+      "type": "project",
+      "path": "../Wpostcode.Data/Wpostcode.Data.csproj",
+      "msbuildProject": "../Wpostcode.Data/Wpostcode.Data.csproj"
+    },
     "Wpostcode.Repository/1.0.0": {
       "type": "project",
       "path": "../Wpostcode.Repository/Wpostcode.Repository.csproj",

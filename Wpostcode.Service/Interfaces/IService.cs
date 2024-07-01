@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Wpostcode.Data.Models;
 
 namespace Wpostcode.Service.Interfaces
 {
     public interface IService
     {
-        Task<string> CallPostcodeAPI(string postcode);
+        Task<AddressModel> CallPostcodeAPI(string postcode);
     }
 }

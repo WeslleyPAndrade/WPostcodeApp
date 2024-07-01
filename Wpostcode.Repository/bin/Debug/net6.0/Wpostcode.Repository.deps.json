@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Wpostcode.Repository/1.0.0": {
+        "dependencies": {
+          "Wpostcode.Data": "1.0.0"
+        },
+        "runtime": {
+          "Wpostcode.Repository.dll": {}
+        }
+      },
+      "Wpostcode.Data/1.0.0": {
+        "runtime": {
+          "Wpostcode.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wpostcode.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Wpostcode.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

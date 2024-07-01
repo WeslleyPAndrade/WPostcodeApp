@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Wpostcode.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Wpostcode.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Wpostcode.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Wpostcode.Data/1.0.0": {
+      "type": "project",
+      "path": "../Wpostcode.Data/Wpostcode.Data.csproj",
+      "msbuildProject": "../Wpostcode.Data/Wpostcode.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Wpostcode.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\wesll\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Data\\Wpostcode.Data.csproj": {
+              "projectPath": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Data\\Wpostcode.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

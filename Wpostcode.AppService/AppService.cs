@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Wpostcode.AppService.Interfaces;
+using Wpostcode.Data.Models;
 using Wpostcode.Usecase.Interfaces;
 
 namespace Wpostcode.AppService
@@ -17,15 +18,15 @@ namespace Wpostcode.AppService
             _useCase = useCase;
         }
 
-        public List<string> GetAddressByPostCode(string postCode)
+        public async Task<List<AddressOutput>> GetAddressByPostCode(string postCode)
         {
             if (string.IsNullOrEmpty(postCode))
             {
                 throw new ArgumentException(message: "Erro no postcode");
             }
             
-            //Chamar usecase
-            return _useCase.GetAddressByPostcode(postCode);
+            
+            return await _useCase.GetAddressByPostcode(postCode);
         }
     }
 }

@@ -15,13 +15,13 @@ namespace Wpostcode.Server.Controllers
         }
 
         [HttpGet("{postcode}")]
-        public async Task<IActionResult> GetAddressByPostCode(string postCode)
+        public async Task<IActionResult> GetAddressByPostCode([FromRoute] string postcode)
         {
             try
             {
-                var result = _appService.GetAddressByPostCode(postCode);
+                var result = await _appService.GetAddressByPostCode(postcode);
 
-                return Ok(result );
+                return Ok(result);
             }
             catch (Exception ex)
             {

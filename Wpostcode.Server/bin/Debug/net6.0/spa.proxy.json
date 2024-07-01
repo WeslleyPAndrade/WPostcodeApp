@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Server\\..\\wpostcode.client",
+"MaxTimeoutInSeconds": "120"
+}
+}

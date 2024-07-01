@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "3zfR69zsOU3mBNPGkOilaZQnTex7wi33swqWULqN/vE=",
+  "Source": "Wpostcode.Server",
+  "BasePath": "_content/Wpostcode.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\wpostcode.client\\wpostcode.client.esproj",
+      "Version": 2,
+      "Source": "wpostcode.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

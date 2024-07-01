@@ -1,0 +1,2 @@
+C:\Users\wesll\Documents\Projects\Projetos seleção\dotnet-postcode-WeslleyAndrade\Wpostcode\wpostcode.client\obj\Debug\wpostcode.client.esproj.CoreCompileInputs.cache
+C:\Users\wesll\Documents\Projects\Projetos dotNet\Wpostcode\wpostcode.client\obj\Debug\wpostcode.client.esproj.CoreCompileInputs.cache

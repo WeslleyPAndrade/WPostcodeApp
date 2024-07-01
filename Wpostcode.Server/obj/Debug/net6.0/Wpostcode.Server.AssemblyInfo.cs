@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wpostcode.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fe3c10c0d69e9baec97d8b2b08a34379051c887")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495fc2c59e412b3a09cad4aecde93b691fdd90e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wpostcode.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wpostcode.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

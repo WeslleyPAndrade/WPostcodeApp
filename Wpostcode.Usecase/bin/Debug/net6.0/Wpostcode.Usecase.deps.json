@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Wpostcode.Usecase/1.0.0": {
+        "dependencies": {
+          "Wpostcode.Repository": "1.0.0",
+          "Wpostcode.Service": "1.0.0"
+        },
+        "runtime": {
+          "Wpostcode.Usecase.dll": {}
+        }
+      },
+      "Wpostcode.Data/1.0.0": {
+        "runtime": {
+          "Wpostcode.Data.dll": {}
+        }
+      },
+      "Wpostcode.Repository/1.0.0": {
+        "dependencies": {
+          "Wpostcode.Data": "1.0.0"
+        },
+        "runtime": {
+          "Wpostcode.Repository.dll": {}
+        }
+      },
+      "Wpostcode.Service/1.0.0": {
+        "dependencies": {
+          "Wpostcode.Data": "1.0.0"
+        },
+        "runtime": {
+          "Wpostcode.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wpostcode.Usecase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Wpostcode.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Wpostcode.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Wpostcode.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

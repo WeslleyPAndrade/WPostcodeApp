@@ -16,10 +16,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IAppService, AppService>();
-builder.Services.AddSingleton<IService, Service>();
+builder.Services.AddScoped<IAppService, AppService>();
+builder.Services.AddScoped<IService, Service>();
+builder.Services.AddScoped<IUseCase, UseCase>();
 builder.Services.AddSingleton<IRepository, Repository>();
-builder.Services.AddSingleton<IUseCase, UseCase>();
 
 var app = builder.Build();
 
