@@ -398,7 +398,20 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.AppService\\Wpostcode.AppService.csproj": {
+                "projectPath": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.AppService\\Wpostcode.AppService.csproj"
+              },
+              "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Data\\Wpostcode.Data.csproj": {
+                "projectPath": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Data\\Wpostcode.Data.csproj"
+              },
+              "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Service\\Wpostcode.Service.csproj": {
+                "projectPath": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Service\\Wpostcode.Service.csproj"
+              },
+              "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Usecase\\Wpostcode.Usecase.csproj": {
+                "projectPath": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Usecase\\Wpostcode.Usecase.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -415,6 +428,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.10.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

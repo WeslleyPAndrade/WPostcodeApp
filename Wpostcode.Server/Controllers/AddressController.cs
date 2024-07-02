@@ -7,9 +7,9 @@ namespace Wpostcode.Server.Controllers
     [Route("api/v1/[controller]")]
     public class AddressController : ControllerBase
     {
-        private readonly IAppService _appService;
+        private readonly IAddressAppService _appService;
 
-        public AddressController(IAppService appService)
+        public AddressController(IAddressAppService appService)
         {
             _appService = appService;
         }

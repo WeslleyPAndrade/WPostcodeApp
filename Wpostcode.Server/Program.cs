@@ -16,9 +16,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IAppService, AppService>();
-builder.Services.AddScoped<IService, Service>();
-builder.Services.AddScoped<IUseCase, UseCase>();
+builder.Services.AddScoped<IAddressAppService, AddressAppService>();
+builder.Services.AddScoped<IService, AddressService>();
+builder.Services.AddScoped<IAddressUseCase, AddressUseCase>();
 builder.Services.AddSingleton<IRepository, Repository>();
 
 var app = builder.Build();

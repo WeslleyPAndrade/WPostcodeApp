@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wpostcode.Usecase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495fc2c59e412b3a09cad4aecde93b691fdd90e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6955bb693701203943dd08d9815e2ab50e74bb69")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wpostcode.Usecase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wpostcode.Usecase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
