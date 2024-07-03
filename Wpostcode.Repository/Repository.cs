@@ -38,7 +38,7 @@ namespace Wpostcode.Repository
             {
                 Index = takeItem,
                 Address = $"{address.Postcode}, {address.AdminDistrict}, {address.Country}",
-                QuilometersDistance = quilometersDistance,
+                KilometersDistance = quilometersDistance,
                 MilesDistance = milesDistance
             };
         }

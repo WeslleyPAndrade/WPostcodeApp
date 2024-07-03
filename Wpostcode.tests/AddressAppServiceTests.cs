@@ -37,7 +37,7 @@ namespace Wpostcode.Tests
             var milesDistance = "15,8";
             var expectedAddresses = new List<AddressOutput>
             {
-                new AddressOutput { Index = 1, Address = "N7 6RS, Islington, England",QuilometersDistance = quilometersDistance, MilesDistance = milesDistance}
+                new AddressOutput { Index = 1, Address = "N7 6RS, Islington, England",KilometersDistance = quilometersDistance, MilesDistance = milesDistance}
             };
 
             _useCaseMock.Setup(x => x.GetAddressByPostcode(validPostCode)).ReturnsAsync(expectedAddresses);

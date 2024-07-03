@@ -23,10 +23,10 @@ namespace Wpostcode.Usecase
         public async Task<List<AddressOutput>> GetAddressByPostcode(string postcode)
         {
             var addressModel = await _service.CallPostcodeAPI(postcode);
-            string quilometersDistance = CalculateDistanceInKilometers(addressModel.Latitude, addressModel.Longitude, LONDON_HEATHROW_AIRPORT_LAT, LONDON_HEATHROW_AIRPORT_LONG).ToString();
+            string kilometersDistance = CalculateDistanceInKilometers(addressModel.Latitude, addressModel.Longitude, LONDON_HEATHROW_AIRPORT_LAT, LONDON_HEATHROW_AIRPORT_LONG).ToString();
             string milesDistance = CalculateDistanceInMiles(addressModel.Latitude, addressModel.Longitude, LONDON_HEATHROW_AIRPORT_LAT, LONDON_HEATHROW_AIRPORT_LONG).ToString();
 
-            return _repository.Save(addressModel, quilometersDistance, milesDistance);
+            return _repository.Save(addressModel, kilometersDistance, milesDistance);
         }
 
 

@@ -10,7 +10,7 @@ namespace Wpostcode.Data.Models
     {
         public int Index { get; set; }
         public string? Address { get; set; }
-        public string? QuilometersDistance { get; set; }
+        public string? KilometersDistance { get; set; }
         public string? MilesDistance { get; set; }
     }
 }

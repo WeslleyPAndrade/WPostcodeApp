@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34CAB99E-22B4-4A08-B043-0179D4C23E85}|Wpostcode.tests\\Wpostcode.Tests.csproj|c:\\users\\wesll\\documents\\projects\\projetos dotnet\\wpostcode\\wpostcode.tests\\addressservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CAB99E-22B4-4A08-B043-0179D4C23E85}|Wpostcode.tests\\Wpostcode.Tests.csproj|solutionrelative:wpostcode.tests\\addressservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA4634C2-A27A-4C14-912C-98CB29625EC8}|wpostcode.client\\wpostcode.client.esproj|c:\\users\\wesll\\documents\\projects\\projetos dotnet\\wpostcode\\wpostcode.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EA4634C2-A27A-4C14-912C-98CB29625EC8}|wpostcode.client\\wpostcode.client.esproj|solutionrelative:wpostcode.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288854AD-BD61-42DA-8D88-4AC0863BECB4}|Wpostcode.Service\\Wpostcode.Service.csproj|c:\\users\\wesll\\documents\\projects\\projetos dotnet\\wpostcode\\wpostcode.service\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288854AD-BD61-42DA-8D88-4AC0863BECB4}|Wpostcode.Service\\Wpostcode.Service.csproj|solutionrelative:wpostcode.service\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34CAB99E-22B4-4A08-B043-0179D4C23E85}|Wpostcode.tests\\Wpostcode.Tests.csproj|c:\\users\\wesll\\documents\\projects\\projetos dotnet\\wpostcode\\wpostcode.tests\\addressappservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CAB99E-22B4-4A08-B043-0179D4C23E85}|Wpostcode.tests\\Wpostcode.Tests.csproj|solutionrelative:wpostcode.tests\\addressappservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34CAB99E-22B4-4A08-B043-0179D4C23E85}|Wpostcode.tests\\Wpostcode.Tests.csproj|c:\\users\\wesll\\documents\\projects\\projetos dotnet\\wpostcode\\wpostcode.tests\\addressusecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CAB99E-22B4-4A08-B043-0179D4C23E85}|Wpostcode.tests\\Wpostcode.Tests.csproj|solutionrelative:wpostcode.tests\\addressusecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA4634C2-A27A-4C14-912C-98CB29625EC8}|wpostcode.client\\wpostcode.client.esproj|c:\\users\\wesll\\documents\\projects\\projetos dotnet\\wpostcode\\wpostcode.client\\src\\components\\searchinput.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EA4634C2-A27A-4C14-912C-98CB29625EC8}|wpostcode.client\\wpostcode.client.esproj|solutionrelative:wpostcode.client\\src\\components\\searchinput.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddressAppServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.tests\\AddressAppServiceTests.cs",
-              "RelativeDocumentMoniker": "Wpostcode.tests\\AddressAppServiceTests.cs",
-              "ToolTip": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.tests\\AddressAppServiceTests.cs",
-              "RelativeToolTip": "Wpostcode.tests\\AddressAppServiceTests.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:14:52.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddressUseCaseTests.cs",
-              "DocumentMoniker": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.tests\\AddressUseCaseTests.cs",
-              "RelativeDocumentMoniker": "Wpostcode.tests\\AddressUseCaseTests.cs",
-              "ToolTip": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.tests\\AddressUseCaseTests.cs",
-              "RelativeToolTip": "Wpostcode.tests\\AddressUseCaseTests.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:13:27.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddressServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.tests\\AddressServiceTests.cs",
-              "RelativeDocumentMoniker": "Wpostcode.tests\\AddressServiceTests.cs",
-              "ToolTip": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.tests\\AddressServiceTests.cs",
-              "RelativeToolTip": "Wpostcode.tests\\AddressServiceTests.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T20:54:57.764Z",
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\wpostcode.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "wpostcode.client\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\wpostcode.client\\src\\App.tsx",
+              "RelativeToolTip": "wpostcode.client\\src\\App.tsx",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwBwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-03T17:19:13.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddressService.cs",
-              "DocumentMoniker": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Service\\AddressService.cs",
-              "RelativeDocumentMoniker": "Wpostcode.Service\\AddressService.cs",
-              "ToolTip": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\Wpostcode.Service\\AddressService.cs",
-              "RelativeToolTip": "Wpostcode.Service\\AddressService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T13:39:24Z",
+              "Title": "SearchInput.tsx",
+              "DocumentMoniker": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\wpostcode.client\\src\\components\\SearchInput.tsx",
+              "RelativeDocumentMoniker": "wpostcode.client\\src\\components\\SearchInput.tsx",
+              "ToolTip": "C:\\Users\\wesll\\Documents\\Projects\\Projetos dotNet\\Wpostcode\\wpostcode.client\\src\\components\\SearchInput.tsx",
+              "RelativeToolTip": "wpostcode.client\\src\\components\\SearchInput.tsx",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-03T16:37:12.305Z",
               "EditorCaption": ""
             }
           ]

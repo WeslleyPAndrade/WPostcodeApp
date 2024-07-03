@@ -30,7 +30,7 @@ namespace Wpostcode.Tests
             var milesDistance = "15,8";
             var expectedAddress = new List<AddressOutput>
             {
-                new AddressOutput {Index = 1, Address = "N7 6RS, Islington, England",QuilometersDistance = quilometersDistance, MilesDistance = milesDistance}
+                new AddressOutput {Index = 1, Address = "N7 6RS, Islington, England",KilometersDistance = quilometersDistance, MilesDistance = milesDistance}
             };
 
             _serviceMock.Setup(x => x.CallPostcodeAPI(validPostcode)).ReturnsAsync(expectedAddressModel);
